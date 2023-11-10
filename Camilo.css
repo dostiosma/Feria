@@ -1,0 +1,118 @@
+header {
+    background-color: #176B87;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.imagen-logo {
+    max-width: 87px;
+    height: auto;
+}
+
+.Titulo {
+    height: 19px;
+    margin: -95px 0 52px;
+    margin-left: 100px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Caja {
+    width: 940px;
+    position: relative;
+    margin-left: 150px;
+}
+
+nav {
+    position: absolute;
+    top: 12px;
+    margin-left: 350px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #e8e0e0;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FBAED2;
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 20px;
+}
+
+
+.imagen-foother{
+    width: 150px; 
+    height: auto; 
+}
+
+footer {
+    text-align: center;
+    background: #0E4B61;
+    padding: -10px;
+    margin-top: 160px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.asesoru{ 
+    margin-top: 89px;
+    margin-left: 40px; 
+    padding: 10px; 
+    vertical-align: top;
+    width: 522px;
+    height: 522px;
+}
+
+.nombre{
+    
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 550px;
+    margin-top: -490px;
+
+}
+
+    
+.parrafo{
+    margin-top: 30px;
+    margin-inline-start: 660px;
+    display: inline-block;
+    width: 450px;
+    font-size: 20px;
+}
+.cta-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin-inline-start: 890px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FBAED2;
+    color: #fff;
+    border-radius: 5px;
+}

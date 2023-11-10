@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Emprendimiento/Imagenes/Seguridad.JPG.png" type="Logo" sizes="32x32">
+    <title>Capacitaciones Disponibles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #176B87;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        body {
+            background-color: #DFEAE6;
+            
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+        
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+            justify-content: space-between;
+        }
+        .capacitacion:nth-child(1) {
+            background-color: #FFD700; /* Amarillo */
+        }
+
+        .capacitacion:nth-child(2) {
+            background-color: #98FB98; /* Verde claro */
+        }
+
+        .capacitacion:nth-child(3) {
+            background-color: #87CEFA; /* Azul claro */
+        }
+
+        .capacitacion:nth-child(4) {
+            background-color: #FFA07A; /* Salmón claro */
+        }
+
+        .capacitacion {
+            flex-basis: calc(25% - 20px);
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Capacitaciones De Seguridad y Salud en el trabajo </h1>
+    </header>
+    <div class="container">
+        <div class="capacitacion">
+            <h2>Respiracion Profunda</h2>
+            <img src="Emprendimiento/Imagenes/respiracion profunda.png">
+            
+        </div>
+        <div class="capacitacion">
+            <h2>Ejercicio Cardiovascular</h2>
+            <img src="Emprendimiento/Imagenes/cardiovascular.png">
+            
+        </div>
+        <div class="capacitacion">
+            <h2>Meditacion</h2>
+            <img src="Emprendimiento/Imagenes/meditacion.png">
+            
+        </div>
+        <div class="capacitacion">
+            <h2>Ejercicios Movilidad</h2>
+            <img src="Emprendimiento/Imagenes/movilidad.png">
+            
+        </div>
+    </div>
+    <footer>
+        <p>&copy; SegurityXperience 2023. Todos los derechos reservados.</p>
+    </footer>
+    <style>
+        .volver-btn {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #176B87;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+  </style>
+  
+  <a href="index.html" class="volver-btn">Página principal</a>
+</body>
+</html>
